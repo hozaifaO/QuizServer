@@ -28,7 +28,6 @@ public class UserController {
         UserRole userRole = new UserRole();
         userRole.setUser(user);
         userRole.setRole(role);
-        role.setUserRoles(roles);
         roles.add(userRole);
         return this.userService.createUser(user,roles);
     }

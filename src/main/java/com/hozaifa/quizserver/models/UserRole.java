@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class UserRole {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long userRoleId;
     @ManyToOne(fetch = FetchType.EAGER)
     private User user;
