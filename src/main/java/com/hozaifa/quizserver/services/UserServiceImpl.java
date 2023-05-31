@@ -4,12 +4,10 @@ import com.hozaifa.quizserver.models.User;
 import com.hozaifa.quizserver.models.UserRole;
 import com.hozaifa.quizserver.repos.RoleRepo;
 import com.hozaifa.quizserver.repos.UserRepo;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-import java.util.Optional;
 import java.util.Set;
 @Service
 public class UserServiceImpl implements UserService{
