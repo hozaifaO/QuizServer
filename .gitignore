@@ -76,3 +76,4 @@ testem.log
 Thumbs.db
 /front-end/node_modules/
 /front-end/.angular/
+src/main/resources/application.properties
